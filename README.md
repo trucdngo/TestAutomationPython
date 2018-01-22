@@ -1,1 +1,1 @@
-Selenium WeBDriver using Python and pyTest
+Selenium WebDriver using Python and pyTest
