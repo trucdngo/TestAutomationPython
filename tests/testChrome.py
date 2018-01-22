@@ -2,7 +2,6 @@
 from selenium import webdriver
 import os
 
-
 class RunChromeTest():
 
     def run_chrome(self):

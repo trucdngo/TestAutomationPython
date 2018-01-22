@@ -1,7 +1,6 @@
 from selenium import webdriver
 import os
 
-
 class RunSafariTest():
 
     def run_safari(self):

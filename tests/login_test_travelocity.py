@@ -67,4 +67,3 @@ class LoginTests(unittest.TestCase):
 # py.test
 # py.test -s -v tests/login_test_travelocity.py 
 
-

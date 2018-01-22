@@ -6,6 +6,7 @@ from selenium.common.exceptions import *
 import utilities.custom_logger as cl
 import logging
 
+
 class SeleniumDriver():
     log = cl.customLogger(logging.DEBUG)
 

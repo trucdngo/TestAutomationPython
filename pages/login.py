@@ -3,6 +3,7 @@ from base.SeleniumDriver import SeleniumDriver
 import utilities.custom_logger as cl
 import logging
 
+
 class LoginPage(SeleniumDriver):
     log = cl.customLogger(logging.DEBUG)
 
@@ -52,7 +53,6 @@ class LoginPage(SeleniumDriver):
     def verifyLoginWrongPassword(self):
         emailErrorMessage = self.getText("userEmailidError", locatorType="id")
         return (emailErrorMessage == "Please enter your email address.")
-
 
     def invalidLogin(self):
         self.clickLoginLink()
